@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import ReactDOM from 'react-dom';
 import "./LoginPage.css";
 
 class LoginPage extends Component{
@@ -20,7 +21,9 @@ class LoginPage extends Component{
     }
 
     onSubmit(){
-        console.log(this.state);
+        if(this.state.userName&&this.state.password){
+            this.props.history.push("/home");
+        }
     }
 
    render()  {
