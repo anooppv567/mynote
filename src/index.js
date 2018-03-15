@@ -8,7 +8,7 @@ import HomePage from './Pages/Home/HomePage';
 
 ReactDOM.render( 
       <BrowserRouter >
-       <div>
+       <div className="index-cntr">
         <Route exact path='/' component={LoginPage} />
         <Route path='/home' component={HomePage} />
         </div>

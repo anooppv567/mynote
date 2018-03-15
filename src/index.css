@@ -3,4 +3,19 @@ body {
   padding: 0;
   font-family: sans-serif;
   background-color: #2363b3;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+.index-cntr,#root{
+  padding: 0px;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
 }
