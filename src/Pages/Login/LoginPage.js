@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import ReactDOM from 'react-dom';
 import "./LoginPage.css";
-import {Button} from 'react-bootstrap'
+import {Button} from 'react-bootstrap';
 class LoginPage extends Component{
     constructor(){
         super();

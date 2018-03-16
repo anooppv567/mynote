@@ -8,16 +8,14 @@ class MultiPanel extends Component {
 
     }
     render() {
-        var panels = [];
-        for (var i = 0; i < this.props.panelCount; i++) {
-            panels.push(i);
-        }
         const windWidth={
-            width:90/this.props.panelCount+'%'
+            width:90/this.props.panels.length+'%'
         };
         return (
             <div className="multipanel-cntr">
-             {panels.map(i=><div  style={windWidth} key={i.toString()} className="multipanel-window"></div>)}
+             {this.props.panels.map((child,i)=><div  style={windWidth} key={i.toString()} className="multipanel-window">
+                {child}
+             </div>)}
             </div>
         );
     }
