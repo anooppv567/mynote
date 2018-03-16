@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import ReactDOM from 'react-dom';
 import "./LoginPage.css";
-
+import {Button} from 'react-bootstrap'
 class LoginPage extends Component{
     constructor(){
         super();
@@ -32,7 +32,7 @@ class LoginPage extends Component{
                  <div className="logint-ctrls">
                  <div className="logint-ctrl"><label>Name:</label><input type='text' ref="name" placeholder="user Name" value={this.state.userName} onChange={this.handleChange}/></div>
                  <div className="logint-ctrl"><label>Password:</label><input type='password' ref="pwd" placeholder="Password" value={this.state.password} onChange={this.handleChange}/></div>
-                 <div className="logint-btn-wrp"><button className="login-btn" onClick={this.onSubmit}>Submit</button></div>  
+                 <div className="logint-btn-wrp"><Button bsStyle="success" className="login-btn" onClick={this.onSubmit}>Login</Button></div>  
                  </div>   
              </form>
      );

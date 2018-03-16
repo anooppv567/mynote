@@ -16,9 +16,9 @@
     font-style: italic;
 }
 button.login-btn{
-    background-color: green;
+    /* background-color: green;
     padding: 5px 20px ;
-    color: white;
+    color: white; */
     align-self: center;
 }
 
@@ -27,6 +27,7 @@ button.login-btn{
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
+    align-items: center;
 }
 
 .logint-ctrl,.logint-btn-wrp{

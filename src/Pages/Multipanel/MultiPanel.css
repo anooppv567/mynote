@@ -1,0 +1,15 @@
+.multipanel-cntr{
+ width: 90%;
+ margin: 5%;
+ height: 80%;
+ border: 1px solid white;
+ display: flex;
+ flex-flow: row nowrap;
+ justify-content: space-evenly;
+}
+.multipanel-window{
+    border: 1px solid white;
+    height: 100%;
+    max-height: 100%;
+    overflow: auto;
+}
