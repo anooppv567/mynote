@@ -1,0 +1,6 @@
+.view-edit-cntr{
+    width: 100%;
+    align-self: stretch;
+    display: flex;
+    flex-flow: column;
+}

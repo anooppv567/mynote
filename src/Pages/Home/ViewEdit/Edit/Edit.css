@@ -1,0 +1,20 @@
+.edit-cntr{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 300px;
+}
+.edit-input{
+    width: 90%;
+    min-height: 200px;
+    height: 200px;
+    outline: none;
+    border: 2px solid white;
+    font-family: cursive;
+    color: slateblue;
+}
+.edit-btn{
+    padding: 5px 20px;
+}
